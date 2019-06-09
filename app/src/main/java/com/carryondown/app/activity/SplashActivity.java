@@ -32,6 +32,7 @@ public class SplashActivity extends AppCompatActivity {
 //                    }else{
 //                        startActivity(new Intent(SplashActivity.this,MainActivity.class));
 //                    }
+                    finish();
                     startActivity(new Intent(SplashActivity.this,MainActivity.class));
                     break;
             }

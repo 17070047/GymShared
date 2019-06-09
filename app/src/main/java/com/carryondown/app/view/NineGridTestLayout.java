@@ -8,6 +8,7 @@ import android.view.View;
 import com.SuperKotlin.pictureviewer.ImagePagerActivity;
 import com.SuperKotlin.pictureviewer.PictureConfig;
 import com.carryondown.app.R;
+import com.carryondown.app.util.ImageLoaderUtil;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 

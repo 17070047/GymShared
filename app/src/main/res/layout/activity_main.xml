@@ -37,7 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:maxLines="1"
-                    android:text="E+ 健康"
+                    android:text="S·F·P"
                     android:textColor="@color/white"
                     android:textSize="18sp"/>
             </LinearLayout>

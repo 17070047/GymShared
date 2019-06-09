@@ -6,7 +6,7 @@
  *  
  */
 
-package com.carryondown.app.lib;
+package com.carryondown.app.base;
 
 
 public class PositionEntity {

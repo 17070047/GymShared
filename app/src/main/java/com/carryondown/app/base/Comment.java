@@ -1,4 +1,4 @@
-package com.carryondown.app.lib;
+package com.carryondown.app.base;
 
 import android.text.Html;
 import android.text.Spanned;

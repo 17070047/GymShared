@@ -1,4 +1,4 @@
-package com.carryondown.app.activity;
+package com.carryondown.app.adapter;
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.widget.RecyclerView;
@@ -11,8 +11,8 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.carryondown.app.R;
-import com.carryondown.app.lib.Comment;
-import com.carryondown.app.lib.NineGridModel;
+import com.carryondown.app.base.Comment;
+import com.carryondown.app.base.NineGridModel;
 import com.carryondown.app.view.NineGridTestLayout;
 import java.util.List;
 public class NineGridAdapter extends RecyclerView.Adapter<NineGridAdapter.ViewHolder> {

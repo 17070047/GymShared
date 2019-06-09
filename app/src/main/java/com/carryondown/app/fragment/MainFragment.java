@@ -1,5 +1,4 @@
-package com.carryondown.app.activity;
-
+package com.carryondown.app.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class TabFragment extends Fragment {
+public class MainFragment extends Fragment{
 
     public static final String CONTENT = "content";
     private TextView mTextView;
@@ -24,6 +23,4 @@ public class TabFragment extends Fragment {
         mTextView.setText(content);
         return mTextView;
     }
-
-
 }

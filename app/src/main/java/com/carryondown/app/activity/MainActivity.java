@@ -21,6 +21,11 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.carryondown.app.R;
+import com.carryondown.app.fragment.DynamicFragment;
+import com.carryondown.app.fragment.MainFragment;
+import com.carryondown.app.fragment.NearbyFragment;
+import com.carryondown.app.fragment.ShopFragment;
+import com.carryondown.app.fragment.TabFragment;
 import com.chaychan.library.BottomBarItem;
 import com.chaychan.library.BottomBarLayout;
 import java.util.ArrayList;
@@ -53,7 +58,7 @@ public class MainActivity extends AppCompatActivity{
         user = (CircleImageView) findViewById(R.id.toolbar_user);
     }
     private void initData() {
-        TabFragment homeFragment = new TabFragment();
+        MainFragment homeFragment = new MainFragment();
         Bundle bundle1 = new Bundle();
         bundle1.putString(TabFragment.CONTENT, "计划");
         homeFragment.setArguments(bundle1);
@@ -65,11 +70,8 @@ public class MainActivity extends AppCompatActivity{
         nearbyFragment.setArguments(bundle3);
         mFragmentList.add(nearbyFragment);
 
-        TabFragment videoFragment = new TabFragment();
-        Bundle bundle2 = new Bundle();
-        bundle2.putString(TabFragment.CONTENT, "商城");
-        videoFragment.setArguments(bundle2);
-        mFragmentList.add(videoFragment);
+        ShopFragment shopFragment = new ShopFragment();
+        mFragmentList.add(shopFragment);
 
         DynamicFragment friendFragment = new DynamicFragment();
         Bundle bundle4 = new Bundle();

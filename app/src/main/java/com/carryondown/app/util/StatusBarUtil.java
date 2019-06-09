@@ -1,4 +1,4 @@
-package com.carryondown.app.view.statusbar;
+package com.carryondown.app.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
+
+import com.carryondown.app.view.StatusBarView;
 
 public class StatusBarUtil {
 

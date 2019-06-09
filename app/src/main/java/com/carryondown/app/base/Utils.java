@@ -5,7 +5,7 @@
  * Date:2015年4月7日下午3:43:05
  */
 
-package com.carryondown.app.lib;
+package com.carryondown.app.base;
 
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.model.BitmapDescriptor;

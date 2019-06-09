@@ -1,4 +1,4 @@
-package com.carryondown.app.view;
+package com.carryondown.app.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,9 +1,9 @@
 package com.carryondown.app.application;
 
-import android.app.Application;
+import android.content.Context;
 import android.support.multidex.MultiDexApplication;
 
-import com.carryondown.app.lib.NineGridModel;
+import com.carryondown.app.base.NineGridModel;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.uuzuche.lib_zxing.activity.ZXingLibrary;
@@ -33,5 +33,9 @@ public class MyApplication extends MultiDexApplication{
     private void initImageLoader(){
         ImageLoaderConfiguration configuration = ImageLoaderConfiguration.createDefault( this );
         ImageLoader.getInstance().init( configuration );
+    }
+    /**获取上下文*/
+    public static Context getApplication() {
+        return myApplication;
     }
 }

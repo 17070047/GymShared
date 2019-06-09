@@ -1,4 +1,4 @@
-package com.carryondown.app.lib;
+package com.carryondown.app.base;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
